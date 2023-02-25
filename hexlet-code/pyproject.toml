@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = ""
+authors = ["Paul Nikolaevskiy <paulnikolaevsky@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hexlet_code"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+django = "^4.1.7"
+python-dotenv = "^0.21.1"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
